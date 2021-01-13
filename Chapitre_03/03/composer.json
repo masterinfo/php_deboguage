@@ -1,0 +1,8 @@
+{
+    "require-dev": {
+        "phploc/phploc": "^3.0",
+        "phpmd/phpmd": "^2.6",
+        "squizlabs/php_codesniffer": "^2.8",
+        "friendsofphp/php-cs-fixer": "^2.0"
+    }
+}
