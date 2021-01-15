@@ -19,7 +19,7 @@ test commit
     <?php echo  $_SERVER['PHP_SELF']; echo '<br>';?>
     <?php echo  $_SERVER['SCRIPT_FILENAME']; echo '<br>';?>
 
-    <?php  echo str_replace(basename($_SERVER['REQUEST_URI']),'response.php',$_SERVER['REQUEST_URI']); ?>
+    <?php  echo str_replace(basename($_SERVER['REQUEST_URI']), 'response.php', $_SERVER['REQUEST_URI']); ?>
     <header>
 
         <h2><?php siteName(); ?></h2>
